@@ -1,0 +1,2 @@
+ADMIN_BOT_TOKEN = 'your_token'
+ADMIN_CHAT_ID = 0
