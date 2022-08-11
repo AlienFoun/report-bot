@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "report_bot"
+version = "0.1.0"
+description = ""
+authors = ["AlienFoun <alienfoun@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.20"
+psycopg2 = "^2.9.3"
+APScheduler = "^3.9.1"
+pygsheets = "^2.0.5"
+peewee = "^3.15.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
